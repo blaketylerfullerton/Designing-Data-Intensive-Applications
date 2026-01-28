@@ -1,6 +1,8 @@
 # Designing Data-Intensive Applications — Implementation
 
-![DDIA Implementation](./image.png)
+<p align="center">
+  <img src="./image.png" alt="DDIA Implementation">
+</p>
 
 A hands-on exploration of distributed systems concepts from Martin Kleppmann's *Designing Data-Intensive Applications*. Each module implements core ideas from the book with working Python code.
 
