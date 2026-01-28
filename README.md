@@ -10,15 +10,15 @@ A hands-on exploration of distributed systems concepts from Martin Kleppmann's *
 
 | Module | Topic | Key Concepts |
 |--------|-------|--------------|
-| [01_reliability_service](./01_reliability_service/) | Reliability & Fault Tolerance | Circuit breakers, rate limiting, retries with backoff |
-| [02_multi_model_api](./02_multi_model_api/) | Data Models | Relational, document, and graph storage with unified API |
-| [03_storage_engine](./03_storage_engine/) | Storage Engines | Log-structured storage, LSM-trees, SSTables, Bloom filters |
-| [04_versioned_encoding](./04_versioned_encoding/) | Encoding & Evolution | Schema versioning, forward/backward compatibility |
-| [05_replicated_store](./05_replicated_store/) | Replication | Leader-follower replication, WAL, consistency guarantees |
-| [06_sharded_store](./06_sharded_store/) | Partitioning | Consistent hashing, shard routing, rebalancing |
-| [07_transaction_system](./07_transaction_system/) | Transactions | MVCC, isolation levels, serializable snapshot isolation |
-| [08_partition_failures](./08_partition_failures/) | Distributed Failures | Network partitions, failure detectors, CRDTs |
-| [09_consensus_store](./09_consensus_store/) | Consensus | Raft algorithm, replicated state machines |
+| [ReliabilityService](./ReliabilityService/) | Reliability & Fault Tolerance | Circuit breakers, rate limiting, retries with backoff |
+| [MultiModelApi](./MultiModelApi/) | Data Models | Relational, document, and graph storage with unified API |
+| [StorageEngine](./StorageEngine/) | Storage Engines | Log-structured storage, LSM-trees, SSTables, Bloom filters |
+| [VersionedEncoding](./VersionedEncoding/) | Encoding & Evolution | Schema versioning, forward/backward compatibility |
+| [ReplicatedStore](./ReplicatedStore/) | Replication | Leader-follower replication, WAL, consistency guarantees |
+| [ShardedStore](./ShardedStore/) | Partitioning | Consistent hashing, shard routing, rebalancing |
+| [TransactionSystem](./TransactionSystem/) | Transactions | MVCC, isolation levels, serializable snapshot isolation |
+| [PartitionFailures](./PartitionFailures/) | Distributed Failures | Network partitions, failure detectors, CRDTs |
+| [ConsensusStore](./ConsensusStore/) | Consensus | Raft algorithm, replicated state machines |
 
 ## Quick Start
 
@@ -26,12 +26,12 @@ Each module is self-contained. No external dependencies required beyond Python 3
 
 ```bash
 # Run any module directly
-cd 01_reliability_service
+cd ReliabilityService
 python server.py &
 python client.py
 
 # Or run the tests/demos
-cd 07_transaction_system
+cd TransactionSystem
 python anomalies.py
 ```
 
@@ -88,15 +88,15 @@ Complete Raft implementation with leader election, log replication, and safety g
 
 Suggested order for working through the modules:
 
-1. **03_storage_engine** — Start with how data is actually stored
-2. **04_versioned_encoding** — Understand data serialization
-3. **01_reliability_service** — Build resilient clients
-4. **02_multi_model_api** — Compare data modeling approaches
-5. **05_replicated_store** — Add redundancy
-6. **06_sharded_store** — Scale horizontally
-7. **07_transaction_system** — Ensure correctness
-8. **08_partition_failures** — Handle the inevitable
-9. **09_consensus_store** — Achieve distributed agreement
+1. **StorageEngine** — Start with how data is actually stored
+2. **VersionedEncoding** — Understand data serialization
+3. **ReliabilityService** — Build resilient clients
+4. **MultiModelApi** — Compare data modeling approaches
+5. **ReplicatedStore** — Add redundancy
+6. **ShardedStore** — Scale horizontally
+7. **TransactionSystem** — Ensure correctness
+8. **PartitionFailures** — Handle the inevitable
+9. **ConsensusStore** — Achieve distributed agreement
 
 ## References
 
