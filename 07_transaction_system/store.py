@@ -204,3 +204,4 @@ class ReadCommittedStore(MVCCStore):
 class SnapshotIsolationStore(MVCCStore):
     pass
 
+

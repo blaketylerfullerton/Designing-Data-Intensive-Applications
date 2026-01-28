@@ -190,3 +190,4 @@ if __name__ == '__main__':
     for m in managers:
         print(f'node {m.local_node.node_id}: leader={m.get_leader()}, is_leader={m.is_leader()}')
 
+

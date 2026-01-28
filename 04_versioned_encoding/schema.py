@@ -139,3 +139,4 @@ def check_compatibility(old_schema, new_schema):
 
     return len(issues) == 0, issues
 
+

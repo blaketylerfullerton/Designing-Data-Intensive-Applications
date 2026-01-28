@@ -1,5 +1,7 @@
 # Designing Data-Intensive Applications — Implementation
 
+![DDIA Implementation](./image.png)
+
 A hands-on exploration of distributed systems concepts from Martin Kleppmann's *Designing Data-Intensive Applications*. Each module implements core ideas from the book with working Python code.
 
 ## Modules
@@ -99,4 +101,5 @@ Suggested order for working through the modules:
 - Kleppmann, M. (2017). *Designing Data-Intensive Applications*. O'Reilly Media.
 - Ongaro, D., & Ousterhout, J. (2014). In Search of an Understandable Consensus Algorithm (Raft).
 - Shapiro, M., et al. (2011). Conflict-free Replicated Data Types.
+
 

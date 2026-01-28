@@ -234,3 +234,4 @@ if __name__ == '__main__':
     scenario_quorum_loss()
     scenario_eventual_consistency()
 
+

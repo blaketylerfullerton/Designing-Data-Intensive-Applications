@@ -175,3 +175,4 @@ if __name__ == '__main__':
         print(f'  request {i+1}: {result}')
         print(f'  client stats: {client.get_stats()}')
 
+

@@ -160,3 +160,4 @@ class SplitBrainDetector:
                 leaders += 1
         return leaders > 1
 
+

@@ -196,3 +196,4 @@ class LogCompactor:
             'last_included_term': self.last_included_term
         }
 
+

@@ -216,3 +216,4 @@ class LeaderElectionStateMachine:
             self.leaders = dict(snapshot['leaders'])
             self.last_applied = snapshot['last_applied']
 
+

@@ -164,3 +164,4 @@ if __name__ == '__main__':
     print(f'lsm get: lsm_key_0250 = {lsm.get("lsm_key_0250")}')
     print(f'lsm range: {lsm.range_query("lsm_key_0100", "lsm_key_0110")}')
 
+

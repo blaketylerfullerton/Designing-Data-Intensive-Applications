@@ -237,3 +237,4 @@ if __name__ == '__main__':
     lost_update_anomaly()
     snapshot_isolation_prevents_lost_update()
 
+

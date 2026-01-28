@@ -111,3 +111,4 @@ def encode(schema, data):
     encoder = Encoder(schema)
     return encoder.encode(data)
 
+

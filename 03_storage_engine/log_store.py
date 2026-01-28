@@ -149,3 +149,4 @@ class LogStore:
                 if old_segment.path.exists():
                     old_segment.path.unlink()
 
+

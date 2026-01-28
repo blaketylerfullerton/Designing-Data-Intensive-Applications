@@ -171,3 +171,4 @@ class SyncReplicator:
 
         return acks >= self.quorum
 
+

@@ -185,3 +185,4 @@ def decode(data, registry=None, target_schema=None):
     decoder = Decoder(registry, target_schema)
     return decoder.decode(data)
 
+

@@ -192,3 +192,4 @@ class ShardMerger:
 
         return {'merged_keys': len(data), 'target_shard': target_id}
 
+

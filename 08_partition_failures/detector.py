@@ -167,3 +167,4 @@ class GossipDetector:
         with self.lock:
             return list(self.failed)
 
+
